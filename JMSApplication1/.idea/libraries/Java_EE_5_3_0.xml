@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java EE 5-3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Receiver/lib/javaee.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

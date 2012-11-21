@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="spring-3.1.0" type="spring">
+    <properties version="3.1.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-aspects.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-beans.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-context-support.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-context.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-expression.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-instrument-tomcat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-instrument.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-orm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-oxm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/spring-tx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sender/lib/aopalliance.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

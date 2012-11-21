@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<weblogic-ejb-jar xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar
+                  http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.1/weblogic-ejb-jar.xsd">
+
+    <weblogic-enterprise-bean>
+        <ejb-name>ReceiverQueueMDB</ejb-name>
+        <message-driven-descriptor>
+            <destination-jndi-name>weblogic.base_domain.jms.Queue</destination-jndi-name>
+        </message-driven-descriptor>
+        <jndi-name>ReceiverQueueMDB</jndi-name>
+    </weblogic-enterprise-bean>
+
+    <weblogic-enterprise-bean>
+        <ejb-name>ReceiverTopicMDB</ejb-name>
+        <message-driven-descriptor>
+            <destination-jndi-name>weblogic.base_domain.jms.Topic</destination-jndi-name>
+        </message-driven-descriptor>
+        <jndi-name>ReceiverTopicMDB</jndi-name>
+    </weblogic-enterprise-bean>
+
+</weblogic-ejb-jar>

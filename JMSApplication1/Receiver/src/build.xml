@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<project name="Receiver" default="all">
+
+    <property name="directory" value="C:/Users/Roma/IdeaProjects/JMSApplication1/out/artifacts"/>
+
+    <target name="all" depends="Receiver.jar">
+        <delete dir="${directory}/Receiver/Receiver"/>
+    </target>
+
+    <target name="Receiver.jar" depends="copying">
+        <jar destfile="${directory}/Receiver/Receiver.jar">
+            <fileset dir="${directory}/Receiver/Receiver"/>
+        </jar>
+    </target>
+
+    <target name="copying" depends="compile">
+        <copy todir="${directory}/Receiver/Receiver/META-INF">
+            <fileset dir="../META-INF"/>
+        </copy>
+    </target>
+
+    <target name="compile" depends="make_dir">
+        <javac srcdir="../src" destdir="${directory}/Receiver/Receiver">
+            <classpath path="../lib/javaee.jar"/>
+        </javac>
+    </target>
+
+    <target name="make_dir">
+        <mkdir dir="${directory}"/>
+        <mkdir dir="${directory}/Receiver"/>
+        <mkdir dir="${directory}/Receiver/Receiver/META-INF"/>
+        <mkdir dir=""/>
+    </target>
+
+</project>
